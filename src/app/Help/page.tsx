@@ -1,4 +1,5 @@
 //Get Help component
+import Link from "next/link"
 import Image from "next/image";
 import mobileImg from "../assets/mobileImg.png"
 import inboxImg from "../assets/inboxImg.png"
@@ -46,25 +47,28 @@ export default function GetHelpPage() {
               </ul>
               <p className="text-[13px] font-[500] text-[#111111] ">If you enter your PAN information at checkout, you'll be able to pay for your order with PayTM or a local credit or debit card.</p>
               <p className="text-[15px] font-[500] text-[#111111] pl-2">Apply Pay</p>
-              
+
               <p className="text-[15px] font-[500] text-[#111111]  mt-2">
                 <span className="font-semibold">Nike Members</span> can store multiple debit or credit cards in their profile for faster
                 checkout. If you're not already a Member, <span className="font-semibold">join us</span> today.
               </p>
             </div>
-<div >
-            {/* Join Us and Shop Nike Buttons */}
-            <button
-            className="bg-black text-white text-sm sm:text-base px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition"
-          >
-            JOIN US
-          </button>
-          <button
-            className="bg-black text-white text-sm sm:text-base ml-2 px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition"
-          >
-            SHOP NIKE
-          </button>
+
+
+            <div >
+              {/* Join Us and Shop Nike Buttons */}
+              <Link href="/Joinus"> <button
+                className="bg-black text-white text-sm sm:text-base px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition"
+              >
+                JOIN US
+              </button></Link>
+              <button
+                className="bg-black text-white text-sm sm:text-base ml-2 px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition"
+              >
+                SHOP NIKE
+              </button>
             </div>
+
 
             {/* FAQs Section */}
             <div className="text-[#111111]">
@@ -99,18 +103,18 @@ export default function GetHelpPage() {
               <div className="mt-6">
                 <h3 className="text-[16px] font-[600]">Was this answer helpful?</h3>
                 <div className="flex space-x-3 mt-2">
-                {/* like logo image  */}
-                <Image
-             src={likeLogo}
-              alt="Logo"
-               className="h-[25px] w-[25px]" /> 
+                  {/* like logo image  */}
+                  <Image
+                    src={likeLogo}
+                    alt="Logo"
+                    className="h-[25px] w-[25px]" />
 
 
-                 {/* dislike logo image  */}
-                 <Image
-             src={dislikeLogo}
-              alt="Logo"
-               className="h-[25px] w-[25px] mt-1" /> 
+                  {/* dislike logo image  */}
+                  <Image
+                    src={dislikeLogo}
+                    alt="Logo"
+                    className="h-[25px] w-[25px] mt-1" />
 
                 </div>
               </div>
@@ -134,62 +138,62 @@ export default function GetHelpPage() {
 
           {/* Right Section */}
           <div className="w-full lg:w-1/3 space-y-[35px] mt-[50px]">
-          <h2 className="md:text-[24px] lg:text-[24px] text-[20px] font-[700] text-[#111111]">CONTACT US</h2>
-          <Image
-             src={mobileImg}
+            <h2 className="md:text-[24px] lg:text-[24px] text-[20px] font-[700] text-[#111111]">CONTACT US</h2>
+            <Image
+              src={mobileImg}
               alt="Logo"
-               className="h-[45px] w-[45px]" /> 
-        
+              className="h-[45px] w-[45px]" />
+
             <div className=" text-[#111111]">
-             
-              
-               
-              
+
+
+
+
 
               <div>
-                 {/* Contact Phone */}
-              <p className="text-[16px] font-[700]">000 800 919 0566</p>
+                {/* Contact Phone */}
+                <p className="text-[16px] font-[700]">000 800 919 0566</p>
 
-              
-              {/* Contact Hours */}
+
+                {/* Contact Hours */}
                 <p className="font-[500] text-[14px]">Products & Orders: 24 hours a day, <br />7 days a week</p>
-               
+
                 <p className="font-[500] text-[14px] mt-3">Company Info & Enquiries: 07:30 - <br /> 16:30, Monday - Friday</p>
-               
+
               </div>
 
               {/* Message Box */}
               <div className="mt-[70px]">
-              
+
                 <Image
-             src={inboxImg}
-              alt="Logo"
-               className="h-[45px] w-[45px]" /> 
-                  <p className="font-[700] text-[14px]">24 hours a day <br /><span className="font-[500] text-[14px]">7 days a week</span></p>
-                </div>
-              
+                  src={inboxImg}
+                  alt="Logo"
+                  className="h-[45px] w-[45px]" />
+                <p className="font-[700] text-[14px]">24 hours a day <br /><span className="font-[500] text-[14px]">7 days a week</span></p>
+              </div>
+
 
               {/* Email Box */}
               <div className="mt-[70px]">
-               
+
                 <Image
-             src={mailImg}
-              alt="Logo"
-               className="h-[45px] w-[45px]" /> 
-               <p className="font-[700] text-[14px]"> We'll reply within<br /><span className="font-[500] text-[14px]">five business days</span></p>
+                  src={mailImg}
+                  alt="Logo"
+                  className="h-[45px] w-[45px]" />
+                <p className="font-[700] text-[14px]"> We'll reply within<br /><span className="font-[500] text-[14px]">five business days</span></p>
 
               </div>
 
               {/* Location Box */}
               <div className="mt-[70px]">
-              
-                <Image
-             src={nikelocationImg}
-              alt="Logo"
-               className="h-[45px] w-[45px]" /> 
-               <p className="font-[700] text-[16px]">STORE LOCATOR <br /><span className="font-[500] text-[14px]">Find Nike retail stores near you</span></p>
 
-    
+                <Image
+                  src={nikelocationImg}
+                  alt="Logo"
+                  className="h-[45px] w-[45px]" />
+                <p className="font-[700] text-[16px]">STORE LOCATOR <br /><span className="font-[500] text-[14px]">Find Nike retail stores near you</span></p>
+
+
               </div>
 
 

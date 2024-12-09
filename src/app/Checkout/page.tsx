@@ -8,10 +8,10 @@ import blackshoes from "../assets/blackShoes.png";
 
 const Checkout = () => {
   return (
-    <div className="w-full h-auto bg-[#ffffff] py-10 px-4 place-items-center">
+    <div className="w-full h-auto bg-[#ffffff] py-10 px-4 place-items-center ">
 
       {/* Main Flex Container */}
-      <div className="lg:flex justify-around gap-8 items-start max-w-screen-xl mx-auto">
+      <div className="lg:flex justify-around gap-8 items-start max-w-screen-xl mx-auto ">
 
         {/* Left Section */}
         <div className="w-full max-w-[450px] text-[#111111] lg:flex-[0.65]">
@@ -21,19 +21,19 @@ const Checkout = () => {
           </p>
 
           {/* Delivery Option */}
-          <div className="w-[450px] flex gap-[10px] sm:w-1/2 p-3 border-2 border-gray-300 rounded-md text-center mt-6">
+          <div className="w-full flex gap-[10px] sm:w-1/2 p-2 border-2 border-gray-300 rounded-md mt-6">
             <Image src={deleverIcon} alt="delever Icon" width={18} height={18} />
-            <span className="text-[14px] font-[500]">Deliver It</span>
+            <span className="text-[14px] font-[500] w-full">Deliver It</span>
           </div>
 
-          <h1>Enter your name and address:</h1>
+          <h1 className="text-[21px] font-[500] pt-[15px]">Enter your name and address:</h1>
           {/* Input Fields */}
-          <div className="mt-6">
+          <div className="mt-4">
             <input
               type="text"
               id="first-name"
               name="first-name"
-              className="w-full p-3 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className=" w-full p-3 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="First Name"
             />
             <input
@@ -50,7 +50,7 @@ const Checkout = () => {
               className="w-full p-3 mt-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Address Line 1"
             />
-            <p className="text-center text-[#8D8D8D] text-sm mb-6">We do not ship to P.O. Boxes</p>
+            <p className="text-[#757575] text-[14px] font-[500] mt-2 ">We do not ship to P.O. Boxes</p>
             <input
               type="text"
               id="address-line-2"
@@ -74,6 +74,8 @@ const Checkout = () => {
               </div>
             </div>
 
+            {/* State/Territory */}
+
             <div className="flex space-x-4 mt-4">
               <select
                 id="state-territory"
@@ -86,6 +88,8 @@ const Checkout = () => {
                 <span className="text-sm text-gray-700">India</span>
               </div>
             </div>
+
+            {/* cheak boxes */}
 
             <div className="flex items-center justify-between mb-6 mt-6">
               <div className="flex items-center">
@@ -109,7 +113,9 @@ const Checkout = () => {
               </div>
             </div>
 
-            <h1>What's your contact information?</h1>
+            {/* personal contact information */}
+
+            <h1 className="text-[21px] font-[500] pt-[15px]">What's your contact information?</h1>
             <input
               type="email"
               id="email"
@@ -122,32 +128,69 @@ const Checkout = () => {
               type="number"
               id="password"
               name="phonenumber"
-              className="w-full p-3 mt-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full p-3 mt-6 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Phone Number"
             />
-            <p className="text-[#757575]">A carrier might contact you to confirm delivery.</p>
+            <p className="text-[#757575] text-[14px] font-[500]">A carrier might contact you to confirm delivery.</p>
           </div>
+            
+            {/* PAN */}
 
-          <h1 className="text-[16px] text-[600] mt-[10px]">What's your PaN?</h1>
+          <h1 className="text-[21px] font-[500] pt-[18px]">What's your PaN?</h1>
           <input
-              type="text"
-              id="PAN"
-              name="PAN"
-              className="w-full p-3 mt-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="PAN"
-            />
+            type="text"
+            id="PAN"
+            name="PAN"
+            className="w-full p-3 mt-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="PAN"
+          />
+            <p className="text-[#757575] text-[14px] font-[500]">Enter your PAN to enable payment with UPI, Net Banking or local card methods</p>
 
-<div className="border-t border-gray-300 mb-4"></div>
-<h1 className="text-[16px] text-[600] mt-[10px]">Delivery</h1>
 
-<div className="border-t border-gray-300 mb-4"></div>
-<h1 className="text-[16px] text-[600] mt-[10px]">Shipping</h1>
+          {/* cheak boxes of PAN */}
 
-<div className="border-t border-gray-300 mb-4"></div>
-<h1 className="text-[16px] text-[600] mt-[10px]">Billing</h1>
+<div className="flex items-center justify-between mb-6 mt-6">
+              <div className="flex items-center">
+                <input
+                  type="checkbox"
+                  id="newsletter"
+                  className="mr-2 h-4 w-4 text-black border-2 border-gray-300 rounded focus:ring-2 focus:ring-black checked:bg-black checked:border-black"
+                />
+                <label htmlFor="newsletter" className="text-sm text-[#8D8D8D]">Save PAN details to Nike Profile</label>
+              </div>
+            </div>
 
-<div className="border-t border-gray-300 mb-4"></div>
-<h1 className="text-[16px] text-[600] mt-[10px]">Payment</h1>
+            <div className="flex items-center justify-between mb-6 mt-6">
+              <div className="flex items-center">
+                <input
+                  type="checkbox"
+                  id="newsletter"
+                  className="mr-2 h-4 w-4 text-black border-2 border-gray-300 rounded focus:ring-2 focus:ring-black checked:bg-black checked:border-black"
+                />
+                <label htmlFor="newsletter" className="text-sm text-[#8D8D8D]">I have read and consent to eShopWorld processing my information in accordance with the Privacy Statement and Cookie Policy. eShopWorld is a trusted Nike partner.</label>
+              </div>
+            </div>
+
+          {/* button */}
+
+          <button
+            type="submit"
+            className="w-full py-2 mt-4 bg-[#F5F5F5] text-[#757575] text-lg font-semibold rounded-[25px] hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+           Continue
+          </button>
+
+          <div className="border-t border-gray-300 mb-4"></div>
+          <h1 className="text-[16px] text-[700] mt-[20px]">Delivery</h1>
+
+          <div className="border-t border-gray-300 mb-4"></div>
+          <h1 className="text-[16px] text-[600] mt-[17px]">Shipping</h1>
+
+          <div className="border-t border-gray-300 mb-4"></div>
+          <h1 className="text-[16px] text-[600] mt-[17px]">Billing</h1>
+
+          <div className="border-t border-gray-300 mb-4"></div>
+          <h1 className="text-[16px] text-[600] mt-[17px]">Payment</h1>
 
         </div>
 

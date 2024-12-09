@@ -19,7 +19,7 @@ export default function JoinUsPage() {
 
         {/* Paragraph */}
         <p className="text-center text-[#8D8D8D] text-sm mb-6">
-        Create your Nike Member profile and get <br /> first access to the very best of Nike <br /> products, inspiration and community.        </p>
+          Create your Nike Member profile and get <br /> first access to the very best of Nike <br /> products, inspiration and community.        </p>
 
         {/* Form */}
         <form className="space-y-4">
@@ -80,7 +80,7 @@ export default function JoinUsPage() {
 
           {/* Birthday Reward Paragraph */}
           <p className="text-[#8D8D8D] text-sm mb-4">
-          Get a Nike Member Reward every year on your Birthday.
+            Get a Nike Member Reward every year on your Birthday.
           </p>
 
           {/* Country Dropdown */}
@@ -94,23 +94,23 @@ export default function JoinUsPage() {
               <option value="india">India</option>
               <option value="us">United States</option>
               <option value="uk">United Kingdom</option>
-             
+
             </select>
           </div>
 
           {/* Gender Selection (Female and Male) */}
 
           <div className="flex space-x-4 mb-4">
-  {/* male Div */}
-  <div className="w-full sm:w-1/2 p-3 border-2 border-gray-300 rounded-md text-center">
-    <span className="text-sm text-gray-700">Male</span>
-  </div>
+            {/* male Div */}
+            <div className="w-full sm:w-1/2 p-3 border-2 border-gray-300 rounded-md text-center">
+              <span className="text-sm text-gray-700">Male</span>
+            </div>
 
-  {/* female Div */}
-  <div className="w-full sm:w-1/2 p-3 border-2 border-gray-300 rounded-md text-center">
-    <span className="text-sm text-gray-700">Female</span>
-  </div>
-</div>
+            {/* female Div */}
+            <div className="w-full sm:w-1/2 p-3 border-2 border-gray-300 rounded-md text-center">
+              <span className="text-sm text-gray-700">Female</span>
+            </div>
+          </div>
 
           {/* Checkbox and Paragraph */}
           <div className="flex items-center justify-between mb-6">
@@ -132,17 +132,17 @@ export default function JoinUsPage() {
           </p>
 
           {/* Join Us Button */}
-          <button
+          <Link href="/Joinus">  <button
             type="submit"
             className="w-full py-3 bg-black text-white text-lg font-semibold rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             Join Us
-          </button>
+          </button></Link>
         </form>
 
         {/* Sign In Link */}
         <div className="text-center mt-6 text-sm text-[#8D8D8D]">
-          <p>Already a Member? <Link href="#" className="font-bold text-black underline">Sign In</Link></p>
+          <p>Already a Member? <Link href="/Signin" className="font-bold text-black underline">Sign In</Link></p>
         </div>
       </div>
     </div>

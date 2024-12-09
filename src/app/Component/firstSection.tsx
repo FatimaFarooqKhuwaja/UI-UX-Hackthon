@@ -8,7 +8,7 @@ import  leftArrowIcon from "../assets/leftArrowIcon.png"
 
 const FirstSection = () => {
   return (
-    <section className="bg-white py-12 sm:py-16 md:py-20">
+    <section className="bg-white py-12 sm:py-16 md:py-15">
       <div className="max-w-screen-xl mx-auto text-center px-4">
         {/* Heading with Shop and Arrows */}
         <div className="flex justify-between items-center mb-8 px-4">

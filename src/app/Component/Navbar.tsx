@@ -11,25 +11,25 @@ const Navbar = () => {
       <div className="max-w-screen-xl mx-auto px-4 py-[6px] flex justify-between items-center">
         {/* Left: Logo */}
         <div className="flex-shrink-0">
-         <Image
-         className="h-8"
-         src={mainLogo}
-         alt="logo"
-         />
+          <Image
+            className="h-8"
+            src={mainLogo}
+            alt="logo"
+          />
         </div>
 
         {/* Center: Skip to main content */}
         <div className="hidden md:block flex-1 text-center">
-        <Link href="/"><h1 className="text-[13px] font-[500]"> 
-        Home
-         </h1></Link>
+          <Link href="/"><h1 className="text-[13px] font-[500]">
+            Skip to main content
+          </h1></Link>
         </div>
 
         {/* Right: Navigation Links */}
         <div className="flex space-x-4">
-          <Link href="/find-a-store" className="text-black text-[10px] md:text-[14px] font-[600]">Find a Store </Link>
+          <Link href="/Products" className="text-black text-[10px] md:text-[14px] font-[600]">Find a Store </Link>
           <span className="text-black">|</span>
-          
+
           <Link href="/Help" className="text-black text-[10px]  md:text-[14px] font-[600]"> Help </Link>
           <span className="text-black">|</span>
 

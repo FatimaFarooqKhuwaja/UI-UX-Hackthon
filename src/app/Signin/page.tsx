@@ -42,23 +42,23 @@ export default function LoginPage() {
 
           {/* Checkbox and Forgot Password */}
           <div className="flex items-center justify-between">
-  <div className="flex items-center">
-    <input
-      type="checkbox"
-      id="keep-me-signed-in"
-      className="mr-2 h-4 w-4 text-black border-2 border-gray-300 rounded focus:ring-2 focus:ring-black checked:bg-black checked:border-black"
-      defaultChecked
-    />
-    <label htmlFor="keep-me-signed-in" className="text-sm text-gray-700">
-      Keep me signed in
-    </label>
-  </div>
-  <Link href="#" className="text-sm text-[#BCBCBC]">Forgotten your password?</Link>
-</div>
+            <div className="flex items-center">
+              <input
+                type="checkbox"
+                id="keep-me-signed-in"
+                className="mr-2 h-4 w-4 text-black border-2 border-gray-300 rounded focus:ring-2 focus:ring-black checked:bg-black checked:border-black"
+                defaultChecked
+              />
+              <label htmlFor="keep-me-signed-in" className="text-sm text-gray-700">
+                Keep me signed in
+              </label>
+            </div>
+            <Link href="#" className="text-sm text-[#BCBCBC]">Forgotten your password?</Link>
+          </div>
 
-  {/* Terms and Conditions */}
-  <p className="text-center text-sm text-[#8D8D8D] mb-6">
-  By logging in, you agree to Nike's <span className="underline">Privacy</span> <br /> <span className="underline">Policy</span> and <span className="underline">Terms of Use</span>.
+          {/* Terms and Conditions */}
+          <p className="text-center text-sm text-[#8D8D8D] mb-6">
+            By logging in, you agree to Nike's <span className="underline">Privacy</span> <br /> <span className="underline">Policy</span> and <span className="underline">Terms of Use</span>.
           </p>
 
 
@@ -73,7 +73,7 @@ export default function LoginPage() {
 
         {/* Join Us Paragraph */}
         <div className="text-center mt-6 text-sm text-gray-700">
-          <p>Not a Member? <span className="font-bold text-black">Join Us.</span></p>
+          <p>Not a Member? <Link href="/Joinus"><span className="font-bold text-black">Join Us.</span></Link></p>
         </div>
       </div>
     </div>

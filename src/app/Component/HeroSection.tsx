@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section className="relative bg-white">
       {/* Hero Image */}
-      <div className="relative w-full md:pl-[30px] md:pr-[30px] h-[60vh] sm:h-[70vh] md:h-[100vh]">
+      <div className="relative w-full md:pl-[30px] md:pr-[30px] h-[40vh] sm:h-[50vh] md:h-[100vh]">
         <Image
           src={HeroImage} 
           alt="Hero Image"

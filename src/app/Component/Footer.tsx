@@ -96,7 +96,7 @@ const Footer = () => {
           </div>
 
 {/* end section */}
-<div className="flex md:justify-between  flex-cols pt-[100px] ml-[20px] mr-[20px] ">
+<div className="md:flex md:flex-row md:justify-between flex flex-col pt-[80px] ml-[20px] mr-[20px] ">
 <div className="flex md:gap-[10px]  ">
         <Image
          className="h-5"
@@ -104,13 +104,13 @@ const Footer = () => {
          alt="logo"
          />
          <p className="text-[#FFFFFF] text-[14px] font-[600]">India</p>
-         <p className="text-[#7E7E7E] text-[14px] font-[400]">© 2023 Nike, Inc. All Rights Reserved</p>
+         <p className="text-[#7E7E7E] text-[14px] font-[400] pl-1">© 2023 Nike, Inc. All Rights Reserved</p>
 
 
 </div>
 
           {/* Footer Links */}
-          <div className=" text-[#7E7E7E] md:text-[16px] md:gap-[40px] md:flex flex flex-col md:flex-row gap-[40px] pt-[15px] text-[11px]">
+          <div className=" text-[#7E7E7E] md:text-[16px] md:gap-[40px] md:flex md:flex-row gap-[40px] mt-[20px] text-[11px] flex flex-col">
             <Link href="#" className="hover:text-white">Guide</Link>
             <Link href="#" className="hover:text-white">Terms of Sale</Link>
             <Link href="#" className="hover:text-white">Terms of Use</Link>

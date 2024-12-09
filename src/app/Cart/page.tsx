@@ -20,44 +20,44 @@ const Cart = () => {
           <div className="bg-[#E5E5E5] rounded-lg p-[12px] p mb-6">
             <h1 className="text-[18px] font-[600]">Free Delivery</h1>
             <h2 className="text-[14px] font-[400] mt-2">Applies to orders of ₹ 14,000.00 or more. <span className="font-[700] underline mt-4 inline-block">View Details</span></h2>
-           
+
           </div>
 
           {/* Bag Section */}
           <h2 className="text-[20px] font-semibold mb-4">Bag</h2>
-         
+
           {/* Product Item */}
           <div className=" flex flex-col lg:flex-row gap-4 items-center mb-6 lg:mb-6">
-            <Image src={gearupImg1} alt="Product" className="object-cover h-[180px] w-[180px]"/>
+            <Image src={gearupImg1} alt="Product" className="object-cover h-[180px] w-[180px]" />
             <div>
-                <div className="flex justify-between">
-              <h3 className="text-[18px] font-[700]">Nike Dri-FIT ADV TechKnit Ultra</h3>
-              <p className="text-[16px] font-[600]">MRP: ₹ 3 895.00</p></div>
+              <div className="flex justify-between">
+                <h3 className="text-[18px] font-[700]">Nike Dri-FIT ADV TechKnit Ultra</h3>
+                <p className="text-[16px] font-[600]">MRP: ₹ 3 895.00</p></div>
               <p className="text-[15px] mt-1 text-[#757575]">Men's Short-Sleeve Running Top <br /> Ashen Slate/Cobalt Bliss</p>
               <p className="text-[15px] mt-1 text-[#757575]"><span>Size L</span> <span>Quantity 1</span></p>
 
               {/* Heart and Delete Icons */}
               <div className="flex gap-4 mt-4 items-center">
-                <Image src={heartIcon} alt="Heart Icon" width={18} height={18}/>
-                <Image src={deleteIcon} alt="Delete Icon" width={18} height={18}/>
+                <Image src={heartIcon} alt="Heart Icon" width={18} height={18} />
+                <Image src={deleteIcon} alt="Delete Icon" width={18} height={18} />
               </div>
             </div>
           </div>
 
-
+          {/* second Product Item */}
           <div className="mt-[100px] md:mt-[50px] md:ml-[190px]">
-       
+
             <div>
-                <div className="flex justify-between ">
-              <h3 className="text-[18px] font-[700]">Nike Air Max 97 SE</h3>
-              <p className="text-[16px] font-[600]">MRP: ₹ 16 995.00</p></div>
+              <div className="flex justify-between ">
+                <h3 className="text-[18px] font-[700]">Nike Air Max 97 SE</h3>
+                <p className="text-[16px] font-[600]">MRP: ₹ 16 995.00</p></div>
               <p className="text-[15px] mt-1 text-[#757575]">Men's Shoes <br /> Flat Pewter/Light Bone/Black/White</p>
               <p className="text-[15px] mt-1 text-[#757575]"><span>Size 8</span> <span>Quantity 1</span></p>
 
               {/* Heart and Delete Icons */}
               <div className="flex gap-4 mt-4 items-center">
-                <Image src={heartIcon} alt="Heart Icon" width={18} height={18}/>
-                <Image src={deleteIcon} alt="Delete Icon" width={18} height={18}/>
+                <Image src={heartIcon} alt="Heart Icon" width={18} height={18} />
+                <Image src={deleteIcon} alt="Delete Icon" width={18} height={18} />
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Cart = () => {
 
 
 
-        
+
 
         {/* Right Section */}
         <div className="w-full max-w-[300px] text-[#111111]">
@@ -105,7 +105,7 @@ const Cart = () => {
               Member Checkout
             </button>
           </div></Link>
-          
+
         </div>
 
       </div>
