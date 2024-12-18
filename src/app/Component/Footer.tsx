@@ -44,7 +44,7 @@ const Footer = () => {
 
 
           <div>
-            <h3 className="text-[18px] font-[500] text-[#FFFFFF] pt-[20px]">About Nike</h3>
+            <h3 className="text-[18px] font-[500] text-[#FFFFFF] pt-[20px]">About QAFIX</h3>
             <ul className="space-y-2 text-[#7E7E7E] text-[14px] font-[500]">
               <li>News</li>
               <li>Careers</li>
@@ -103,8 +103,8 @@ const Footer = () => {
          src={locationLogo}
          alt="logo"
          />
-         <p className="text-[#FFFFFF] text-[14px] font-[600]">India</p>
-         <p className="text-[#7E7E7E] text-[14px] font-[400] pl-1">© 2023 Nike, Inc. All Rights Reserved</p>
+         <p className="text-[#FFFFFF] text-[14px] font-[600]">Pakistan</p>
+         <p className="text-[#7E7E7E] text-[14px] font-[400] pl-1">© 2024 Nike, Inc. All Rights Reserved</p>
 
 
 </div>

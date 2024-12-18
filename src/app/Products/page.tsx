@@ -382,7 +382,7 @@ const ProductPage = () => {
             <div className="p-4">
               <h3 className="text-red-600 text-sm font-semibold">Just In</h3>
               <h1 className="text-[15px] font-[500] mt-1">Nike Dri-FIT UV Hyverse</h1>
-              <p className="text-[#757575] text-[14px] font-[500] mt-1">Men's Short-Sleeve Graphic Fitness Top</p>
+              <p className="text-[#757575] text-[14px] font-[500] mt-1">Men's Short-Sleeve Graphic Fitness</p>
               <p className="text-[#757575] text-[500] font-[500] mt-1">1 Colour</p>
               <h1 className="text-[15px] font-[500] mt-1">MRP : ₹ 2 495.00</h1>
             </div>
@@ -440,7 +440,7 @@ const ProductPage = () => {
             <div className="p-4">
               <h3 className="text-red-600 text-sm font-semibold">Just In</h3>
               <h1 className="text-[15px] font-[500] mt-1">Nike One Leak Protection: Period</h1>
-              <p className="text-[#757575] text-[14px] font-[500] mt-1">Women's Mid-Rise 18cm (approx.) Biker Shorts</p>
+              <p className="text-[#757575] text-[14px] font-[500] mt-1">Women's Biker Shorts</p>
               <p className="text-[#757575] text-[500] font-[500] mt-1">2 Colour</p>
               <h1 className="text-[15px] font-[500] mt-1">MRP : ₹ 3 395.00</h1>
             </div>
@@ -626,7 +626,7 @@ const ProductPage = () => {
             <div className="p-4">
               <h3 className="text-red-600 text-sm font-semibold">Just In</h3>
               <h1 className="text-[15px] font-[500] mt-1">Nike Alate All U</h1>
-              <p className="text-[#757575] text-[14px] font-[500] mt-1">Women's Light-Support Lightly Lined U-Neck Printed Sports Bra</p>
+              <p className="text-[#757575] text-[14px] font-[500] mt-1">Women's</p>
               <p className="text-[#757575] text-[500] font-[500] mt-1">1 Colour</p>
               <h1 className="text-[15px] font-[500] mt-1">MRP : ₹ 2 195.00</h1>
             </div>
@@ -666,7 +666,7 @@ const ProductPage = () => {
             <div className="p-4">
               <h3 className="text-red-600 text-sm font-semibold">Just In</h3>
               <h1 className="text-[15px] font-[500] mt-1">Nike Swoosh</h1>
-              <p className="text-[#757575] text-[14px] font-[500] mt-1">Women's Medium-support Padded Sports Bra Tank</p>
+              <p className="text-[#757575] text-[14px] font-[500] mt-1">Women's Medium-support </p>
               <p className="text-[#757575] text-[500] font-[500] mt-1">2 Colour</p>
               <h1 className="text-[15px] font-[500] mt-1">MRP : ₹ 3 095.00</h1>
             </div>
@@ -727,7 +727,7 @@ const ProductPage = () => {
             <div className="p-4">
               <h3 className="text-red-600 text-sm font-semibold">Just In</h3>
               <h1 className="text-[15px] font-[500] mt-1">Nike Dri-FIT Challenger</h1>
-              <p className="text-[#757575] text-[14px] font-[500] mt-1">Men's 18cm (approx.) 2-in-1 Versatile Shorts</p>
+              <p className="text-[#757575] text-[14px] font-[500] mt-1">Men's Versatile Shorts</p>
               <p className="text-[#757575] text-[500] font-[500] mt-1">1 Colour</p>
               <h1 className="text-[15px] font-[500] mt-1">MRP : ₹ 2 495.00</h1>
             </div>
@@ -767,7 +767,7 @@ const ProductPage = () => {
             <div className="p-4">
               <h3 className="text-red-600 text-sm font-semibold">Just In</h3>
               <h1 className="text-[15px] font-[500] mt-1">Nike Outdoor Play</h1>
-              <p className="text-[#757575] text-[14px] font-[500] mt-1">Older Kids' Oversized Woven Jacket</p>
+              <p className="text-[#757575] text-[14px] font-[500] mt-1">Kids' Oversized Woven Jacket</p>
               <p className="text-[#757575] text-[500] font-[500] mt-1">1 Colour</p>
               <h1 className="text-[15px] font-[500] mt-1">MRP : ₹ 3 895.00</h1>
             </div>
@@ -788,7 +788,7 @@ const ProductPage = () => {
             <div className="p-4">
               <h3 className="text-red-600 text-sm font-semibold">Just In</h3>
               <h1 className="text-[15px] font-[500] mt-1">Nike Sportswear Trend</h1>
-              <p className="text-[#757575] text-[14px] font-[500] mt-1">Older Kids' (Girls') High-waisted Woven Shorts</p>
+              <p className="text-[#757575] text-[14px] font-[500] mt-1"> Kids' High-waisted Woven Shorts</p>
               <p className="text-[#757575] text-[500] font-[500] mt-1">2 Colour</p>
               <h1 className="text-[15px] font-[500] mt-1">MRP : ₹ 2 495.00</h1>
             </div>

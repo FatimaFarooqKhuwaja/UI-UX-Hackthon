@@ -11,11 +11,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl mx-auto px-4 py-[6px] flex justify-between items-center">
         {/* Left: Logo */}
         <div className="flex-shrink-0">
-          <Image
-            className="h-8"
-            src={mainLogo}
-            alt="logo"
-          />
+         <h1 className="text-[18px] font-[600]">QAFIX</h1>
         </div>
 
         {/* Center: Skip to main content */}
